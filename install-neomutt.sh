@@ -4,6 +4,6 @@ sudo apt install xsltproc libslang2 libslang2-dev libidn11 libidn11-dev elinks l
 ./configure --ssl --with-ui=slang --sasl --disable-doc --disable-nls
 make
 sudo make install 
-cd /home/acidoverflow/
+cd /home/$USER/
 rm -r neomutt
 
