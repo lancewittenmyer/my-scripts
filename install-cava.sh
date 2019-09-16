@@ -5,6 +5,6 @@ cd cava
 ./configure
 make
 sudo make install
-cd /home/acidoverflow/
+cd /home/$USER/
 rm -r cava
 
